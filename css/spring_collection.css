@@ -33,7 +33,6 @@
     flex-flow: column wrap;
     align-items: center;
     margin: calc(50px + (30 - 50) * ((100vw - 320px) / (1440 - 320))) auto auto auto;
-    padding: 0 15px;
 }
 .best-selling__products img {
     width: calc(272px + (370 - 272) * ((100vw - 320px) / (1440 - 320)));
@@ -103,8 +102,12 @@
 @media all and (min-width: 992px) {
     .best-selling {
         grid-template-columns: auto auto auto;
-        grid-column-gap: 15px;
+         width:calc(302px + (1200 - 302) * ((100vw - 320px) / (1440 - 320)));
+        margin: auto;
     }
+    .best-selling__title {
+    margin-bottom: 20px;
+}
 }
 /*Spring 2020 collection Section*/
 
@@ -121,7 +124,7 @@
     flex-flow: column wrap;
     margin: 0;
     margin-top:calc(10px + (90 - 10) * ((100vw - 320px) / (991 - 320)));
-    margin-left: calc(25px + (34 - 25) * ((100vw - 320px) / (991 - 320)));
+    margin-left: calc(25px + (72.5 - 25) * ((100vw - 320px) / (991 - 320)));
 }
 .parallax__title {
     font-weight: 700;
