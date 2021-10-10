@@ -3,12 +3,16 @@
 /*Font style Hind*/
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
 /*Spring collection*/
-@import "./spring_collection.css" ;
+@import "./spring_collection.css";
+/*media queries*/
+@import "./media_queries.css";
 
+
+
+/*general reset styles*/
 :root {
     font-family: "poppins", "sans-serif";
 }
-
     html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
