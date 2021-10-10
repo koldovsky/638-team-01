@@ -1,0 +1,122 @@
+.our-fave-title-block{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 15px 0 15px;
+    
+}
+
+div.our-fave-title span{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 15px 0 15px;
+    
+}
+
+div.our-fave-subtitle p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    padding: 0 15px 0 15px;
+}
+
+.our-fave-products-names{
+    display: flex;
+    margin: 0 0 30px 15px;
+    padding: 0 15px 0 15px;
+}
+
+.our-fave-products-block{
+    margin-top: 45px;
+}
+
+div.our-fave-products-names span.armchairs, 
+div.our-fave-products-names span.lamps,
+div.our-fave-products-names span.tables
+{
+    padding: 15px 20px 15px 20px;
+}
+
+/* Armchairs */
+div.our-fave-armchairs-elements-img {
+max-width: 100%;
+height: auto;
+}
+
+.our-fave-products-armchairs{
+    margin-top: 50px;
+    padding: 0 15px 0 15px;
+}
+
+div.our-fave-armchairs-elements-text p{
+    margin-top: 8px;
+    text-align: center;
+    color: black;
+}
+
+div.our-fave-armchairs-elements-text a{
+    text-decoration: none;
+}
+
+.our-fave-armchairs-elements-price p{
+    color: rgb(123, 181, 124);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* Lamps */
+.our-fave-products-lamps{
+    margin-top: 50px;
+    padding: 0 15px 0 15px;
+}
+
+.our-fave-lamps-elements-img{
+    max-width: 100%;
+    height: auto;
+}
+
+div.our-fave-lamps-elements-text p{
+    margin-top: 8px;
+    text-align: center;
+    color: black;
+}
+
+div.our-fave-lamps-elements-text a{
+    text-decoration: none;
+}
+
+div.our-fave-lamps-elements-price p{
+    color: rgb(123, 181, 124);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* Tables */
+.our-fave-products-tables{
+    margin-top: 50px;
+    padding: 0 15px 0 15px;
+}
+
+.our-fave-tables-elements-img{
+    max-width: 100%;
+    height: auto;
+}
+
+div.our-fave-tables-elements-text p{
+    margin-top: 8px;
+    text-align: center;
+    color: black;
+}
+
+div.our-fave-tables-elements-text a{
+    text-decoration: none;
+}
+
+div.our-fave-tables-elements-price p{
+    color: rgb(123, 181, 124);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+}
