@@ -22,7 +22,7 @@ div.our-fave-subtitle p{
 
 .our-fave-products-names{
     display: flex;
-    margin: 0 0 30px 15px;
+    margin: 0 0 0px 15px;
     padding: 0 15px 0 15px;
 }
 
@@ -39,7 +39,7 @@ div.our-fave-products-names span.tables
 
 /* Armchairs */
 div.our-fave-products-armchairs{
-    margin-top: 50px;
+    margin-top: -30px;
     padding: 0 15px 0 15px;
     display: grid;
     grid-template-columns: auto;
@@ -98,6 +98,7 @@ div.our-fave-armchairs-elements-text a{
     background-color: rgb(255, 221, 217);
     padding: 4px 8px 4px 8px;
     margin-top: -25px;
+    color: rgb(204, 56, 51);
 }
 
 .our-fave-armchairs-elements-img-outstock{
@@ -107,7 +108,7 @@ div.our-fave-armchairs-elements-text a{
 
 /* Lamps */
 div.our-fave-products-lamps{
-    margin-top: 50px;
+    margin-top: -30px;
     padding: 0 15px 0 15px;
     display: grid;
     grid-template-columns: auto;
@@ -157,7 +158,7 @@ div.our-fave-products-lamps{
 
 /* Tables */
 div.our-fave-products-tables{
-    margin-top: 50px;
+    margin-top: -30px;
     padding: 0 15px 0 15px;
     display: grid;
     grid-template-columns: auto;
