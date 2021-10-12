@@ -45,14 +45,14 @@ div.our-fave-products-armchairs{
     grid-template-columns: auto;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 640px) {
     div.our-fave-products-armchairs{
         grid-template-columns: auto auto;
         grid-column-gap: 10px;
     }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 860px) {
     div.our-fave-products-armchairs{
         grid-template-columns: auto auto auto auto;
         grid-column-gap: 10px;
@@ -114,14 +114,14 @@ div.our-fave-products-lamps{
     grid-template-columns: auto;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 640px) {
     div.our-fave-products-lamps{
         grid-template-columns: auto auto;
         grid-column-gap: 10px;
     }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 860px) {
     div.our-fave-products-lamps{
         grid-template-columns: auto auto auto auto;
         grid-column-gap: 10px;
@@ -164,14 +164,14 @@ div.our-fave-products-tables{
     grid-template-columns: auto;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 640px) {
     div.our-fave-products-tables{
         grid-template-columns: auto auto;
         grid-column-gap: 10px;
     }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 860px) {
     div.our-fave-products-tables{
         grid-template-columns: auto auto auto auto;
         grid-column-gap: 10px;
@@ -204,3 +204,28 @@ div.our-fave-products-tables{
     font-weight: 700;
     margin-top: 16px;
 }
+
+/* Buttons */
+div.our-fave-elements-button{
+    margin-top: 24px;
+}
+
+div.our-fave-elements-button a{
+    text-decoration: none;
+    padding: 0.8rem 1.2rem;
+    font-family: 'Hind', sans-serif;
+    color: rgb(182, 182, 182);
+    font-size: 10.8px;
+    font-weight: 700;
+    border: 2px solid;
+    border-color: rgb(123, 181, 124);
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+div.our-fave-elements-button a:hover{
+    background-color: rgb(123, 181, 124);
+    color: white;
+}
+
