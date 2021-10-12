@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniture Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
@@ -148,243 +150,279 @@
                     <p>The best designer products from the 2020 collections.</p>
                 </div>
             </div>
-                <div class="our-fave-products-block">
-                  <div class="our-fave-products-names">
-                    <span class="armchairs">Armchairs</span>
-                    <span class="lamps">Lamps</span>
-                    <span class="tables">Tables</span>
-                  </div>
-                    <div class="our-fave-products-armchairs">
-                        
-                        <div class="our-fave-armchairs-elements">
-                            <div class="our-fave-armchairs-elements-img">
-                                <a href="fusion-armchair.html"> <img src="img/armchairs/fusion-armchair.png"
-                                        alt="Fusion Armchair"></a>
+            <!-- Bootstrap tabs -->
+            <ul class="nav nav-tabs" id="our-fave-products" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="armchairs-tab" data-bs-toggle="tab" data-bs-target="#home"
+                        type="button" role="tab" aria-controls="home" aria-selected="true">Armchairs</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lamps-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                        role="tab" aria-controls="profile" aria-selected="false">Lamps</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tables-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                        type="button" role="tab" aria-controls="contact" aria-selected="false">Tables</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="our-fave-products-content">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="our-fave-products-block">
+                        <div class="our-fave-products-armchairs">
+                            <div class="our-fave-armchairs-elements">
+                                <div class="our-fave-armchairs-elements-img">
+                                    <a href="fusion-armchair.html"> <img src="img/armchairs/fusion-armchair.png"
+                                            alt="Fusion Armchair"></a>
+                                </div>
+                                <div class="our-fave-armchairs-elements-text">
+                                    <a href="fusion-armchair.html">
+                                        <p>Fusion armchair, LEXX</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-armchairs-elements-price">
+                                    <p>320.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                    <!-- <button>ORDER NOW</button> -->
+                                </div>
                             </div>
-                            <div class="our-fave-armchairs-elements-text">
-                                <a href="fusion-armchair.html">
-                                    <p>Fusion armchair, LEXX</p>
-                                </a>
+                            <div class="our-fave-armchairs-elements">
+                                <div class="our-fave-armchairs-elements-img">
+                                    <a href="#"> <img src="img/armchairs/aurora-armchair.png" alt="Aurora Armchair"></a>
+                                </div>
+                                <div class="our-fave-armchairs-elements-text">
+                                    <a href="#">
+                                        <p>Aurora armchair, MDS</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-armchairs-elements-price">
+                                    <p>210.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
-                            <div class="our-fave-armchairs-elements-price">
-                                <p>320.00 USD</p>
+                            <div class="our-fave-armchairs-elements">
+                                <div class="our-fave-armchairs-elements-img">
+                                    <a href="#"><img src="img/armchairs/cloud-armchair.png" alt="Cloud Armchair"></a>
+                                </div>
+                                <div class="our-fave-armchairs-elements-text">
+                                    <a href="#">
+                                        <p>Cloud armchair, DIX</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-armchairs-elements-price">
+                                    <p>150.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a> 
-                                <!-- <button>ORDER NOW</button> -->
-                            </div>
-                        </div>
-                        <div class="our-fave-armchairs-elements">
-                            <div class="our-fave-armchairs-elements-img">
-                                <a href="#"> <img src="img/armchairs/aurora-armchair.png" alt="Aurora Armchair"></a>
-                            </div>
-                            <div class="our-fave-armchairs-elements-text">
-                                <a href="#">
-                                    <p>Aurora armchair, MDS</p>
-                                </a>
-                            </div>
-                            <div class="our-fave-armchairs-elements-price">
-                                <p>210.00 USD</p>
-                            </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a> 
-                            </div>
-                        </div>
-                        <div class="our-fave-armchairs-elements">
-                            <div class="our-fave-armchairs-elements-img">
-                                <a href="#"><img src="img/armchairs/cloud-armchair.png" alt="Cloud Armchair"></a>
-                            </div>
-                            <div class="our-fave-armchairs-elements-text">
-                                <a href="#">
-                                    <p>Cloud armchair, DIX</p>
-                                </a>
-                            </div>
-                            <div class="our-fave-armchairs-elements-price">
-                                <p>150.00 USD</p>
-                            </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a>
-                            </div>
-                        </div>
-                        <div class="our-fave-armchairs-elements">
-                            <div class="our-fave-armchairs-elements-img-outstock">
-                            <div class="our-fave-armchairs-elements-img">
-                                <a href="#"><img src="img/armchairs/jeanine-armchair.png" alt="Jeanine Armchair"></a>
-                            </div>
-                                <div class="our-fave-armchairs-elements-out-stock">Out of stock</div>
-                            </div>
-                            <div class="our-fave-armchairs-elements-text">
-                                <a href="#">
-                                    <p>Jeanine armchair, KUKO</p>
-                                </a>
-                            </div>
-                            <div class="our-fave-armchairs-elements-price">
-                                <p>210.00 USD</p>
-                            </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="our-fave-products-lamps">
-                        <div class="our-fave-lamps-elements">
-                            <div class="our-fave-lamps-elements-img">
-                                <a href="#"> <img src="img/lamps/3-pieces-minimal.png" alt="3-piece Minimal Lamp"></a>
-                            </div>
-                            <div class="our-fave-lamps-elements-text">
-                                <a href="#">
-                                    <p>3-piece Minimal, ARM</p>
-                                </a>
-                            </div>
-                            <div class="our-fave-lamps-elements-price">
-                                <p>110.00 USD</p>
-                            </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a>
-                            </div>
-                        </div>
-                        <div class="our-fave-lamps-elements">
-                            <div class="our-fave-lamps-elements-img">
-                                <a href="#"> <img src="img/lamps/red-drops.png" alt="Red Drops Lamp"></a>
-                            </div>
-                            <div class="our-fave-lamps-elements-text">
-                                <a href="#">
-                                    <p>Red Drops, KUKO</p>
-                                </a>
-                            </div>
-                            <div class="our-fave-lamps-elements-price">
-                                <p>210.00 USD</p>
-                            </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a>
-                            </div>
-                        </div>
-                        <div class="our-fave-lamps-elements">
-                            <div class="our-fave-lamps-elements-img">
-                                <a href="#"> <img src="img/lamps/delar.png" alt="Delar Lamp"></a>
-                            </div>
-                            <div class="our-fave-lamps-elements-text">
-                                <a href="#">
-                                    <p>Delar, Uni Studio</p>
-                                </a>
-                            </div>
-                            <div class="our-fave-lamps-elements-price">
-                                <p>350.00 USD</p>
-                            </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a>
-                            </div>
-                        </div>
-                        <div class="our-fave-lamps-elements">
-                            <div class="our-fave-lamps-elements-img">
-                                <a href="#"> <img src="img/lamps/bublles.png" alt="Bubbles Lamp"></a>
-                            </div>
-                            <div class="our-fave-lamps-elements-text">
-                                <a href="#">
-                                    <p>Bubbles, Udion</p>
-                                </a>
-                            </div>
-                            <div class="our-fave-lamps-elements-price">
-                                <p>410.00 USD</p>
-                            </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                            <div class="our-fave-armchairs-elements">
+                                <div class="our-fave-armchairs-elements-img-outstock">
+                                    <div class="our-fave-armchairs-elements-img">
+                                        <a href="#"><img src="img/armchairs/jeanine-armchair.png"
+                                                alt="Jeanine Armchair"></a>
+                                    </div>
+                                    <div class="our-fave-armchairs-elements-out-stock">Out of stock</div>
+                                </div>
+                                <div class="our-fave-armchairs-elements-text">
+                                    <a href="#">
+                                        <p>Jeanine armchair, KUKO</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-armchairs-elements-price">
+                                    <p>210.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                   
-                    <div class="our-fave-products-tables">
-                        <div class="our-fave-tables-elements">
-                            <div class="our-fave-tables-elements-img">
-                                <a href="#"> <img src="img/tables/upi-table.png" alt="Upi Table"></a>
+                </div>
+
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="our-fave-products-block">
+                        <div class="our-fave-products-lamps">
+                            <div class="our-fave-lamps-elements">
+                                <div class="our-fave-lamps-elements-img">
+                                    <a href="#"> <img src="img/lamps/3-pieces-minimal.png"
+                                            alt="3-piece Minimal Lamp"></a>
+                                </div>
+                                <div class="our-fave-lamps-elements-text">
+                                    <a href="#">
+                                        <p>3-piece Minimal, ARM</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-lamps-elements-price">
+                                    <p>110.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
-                            <div class="our-fave-tables-elements-text">
-                                <a href="#">
-                                    <p>Upi table, Landstrom</p>
-                                </a>
+                            <div class="our-fave-lamps-elements">
+                                <div class="our-fave-lamps-elements-img">
+                                    <a href="#"> <img src="img/lamps/red-drops.png" alt="Red Drops Lamp"></a>
+                                </div>
+                                <div class="our-fave-lamps-elements-text">
+                                    <a href="#">
+                                        <p>Red Drops, KUKO</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-lamps-elements-price">
+                                    <p>210.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
-                            <div class="our-fave-tables-elements-price">
-                                <p>90.00 USD</p>
+                            <div class="our-fave-lamps-elements">
+                                <div class="our-fave-lamps-elements-img">
+                                    <a href="#"> <img src="img/lamps/delar.png" alt="Delar Lamp"></a>
+                                </div>
+                                <div class="our-fave-lamps-elements-text">
+                                    <a href="#">
+                                        <p>Delar, Uni Studio</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-lamps-elements-price">
+                                    <p>350.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                            <div class="our-fave-lamps-elements">
+                                <div class="our-fave-lamps-elements-img">
+                                    <a href="#"> <img src="img/lamps/bublles.png" alt="Bubbles Lamp"></a>
+                                </div>
+                                <div class="our-fave-lamps-elements-text">
+                                    <a href="#">
+                                        <p>Bubbles, Udion</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-lamps-elements-price">
+                                    <p>410.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="our-fave-tables-elements">
-                            <div class="our-fave-tables-elements-img">
-                                <a href="#"> <img src="img/tables/monica-table.png" alt="Monica Table"></a>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+                    <div class="our-fave-products-block">
+                        <div class="our-fave-products-tables">
+                            <div class="our-fave-tables-elements">
+                                <div class="our-fave-tables-elements-img">
+                                    <a href="#"> <img src="img/tables/upi-table.png" alt="Upi Table"></a>
+                                </div>
+                                <div class="our-fave-tables-elements-text">
+                                    <a href="#">
+                                        <p>Upi table, Landstrom</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-tables-elements-price">
+                                    <p>90.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
-                            <div class="our-fave-tables-elements-text">
-                                <a href="#">
-                                    <p>Monica table, Orro</p>
-                                </a>
+                            <div class="our-fave-tables-elements">
+                                <div class="our-fave-tables-elements-img">
+                                    <a href="#"> <img src="img/tables/monica-table.png" alt="Monica Table"></a>
+                                </div>
+                                <div class="our-fave-tables-elements-text">
+                                    <a href="#">
+                                        <p>Monica table, Orro</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-tables-elements-price">
+                                    <p>110.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
-                            <div class="our-fave-tables-elements-price">
-                                <p>110.00 USD</p>
+                            <div class="our-fave-tables-elements">
+                                <div class="our-fave-tables-elements-img">
+                                    <a href="#"> <img src="img/tables/snitch-cabinet.png" alt="Snitch Cabinet"></a>
+                                </div>
+                                <div class="our-fave-tables-elements-text">
+                                    <a href="#">
+                                        <p>Snitch cabinet, ARM</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-tables-elements-price">
+                                    <p>110.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a>
-                            </div>
-                        </div>
-                        <div class="our-fave-tables-elements">
-                            <div class="our-fave-tables-elements-img">
-                                <a href="#"> <img src="img/tables/snitch-cabinet.png" alt="Snitch Cabinet"></a>
-                            </div>
-                            <div class="our-fave-tables-elements-text">
-                                <a href="#">
-                                    <p>Snitch cabinet, ARM</p>
-                                </a>
-                            </div>
-                            <div class="our-fave-tables-elements-price">
-                                <p>110.00 USD</p>
-                            </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a>
-                            </div>
-                        </div>
-                        <div class="our-fave-tables-elements">
-                            <div class="our-fave-tables-elements-img">
-                                <a href="#"> <img src="img/tables/hugo-table.png" alt="Hugo Table"></a>
-                            </div>
-                            <div class="our-fave-tables-elements-text">
-                                <a href="#">
-                                    <p>Hugo table, KUKO studio</p>
-                                </a>
-                            </div>
-                            <div class="our-fave-tables-elements-price">
-                                <p>99.00 USD</p>
-                            </div>
-                            <div class="our-fave-elements-button">
-                                <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                            <div class="our-fave-tables-elements">
+                                <div class="our-fave-tables-elements-img">
+                                    <a href="#"> <img src="img/tables/hugo-table.png" alt="Hugo Table"></a>
+                                </div>
+                                <div class="our-fave-tables-elements-text">
+                                    <a href="#">
+                                        <p>Hugo table, KUKO studio</p>
+                                    </a>
+                                </div>
+                                <div class="our-fave-tables-elements-price">
+                                    <p>99.00 USD</p>
+                                </div>
+                                <div class="our-fave-elements-button">
+                                    <a href="#" class="button-order"><span>ORDER NOW</span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        <div class="partners-block">
-            <div class="partners-block-img">
-                <img src="img/partners/idea.webp" alt="Idea">
-            </div>
-            <div class="partners-block-img">
-                <img src="img/partners/art-van.webp" alt="ArtVan">
-            </div>
-            <div class="partners-block-img">
-                <img src="img/partners/ikea.webp" alt="Ikea">
-            </div>
-            <div class="partners-block-img">
-                <img src="img/partners/vitra.webp" alt="Vitra">
-            </div>
-            <div class="partners-block-img">
-                <img src="img/partners/walmart.webp" alt="Walmart">
-            </div>
-            <div class="partners-block-img">
-                <img src="img/partners/kronheims.webp" alt="Kronheims">
-            </div>
-            <div class="partners-block-img">
-                <img src="img/partners/seaman's.webp" alt="Seaman's">
-            </div>
-        </div>
+
+            <!-- Bootstrap carousel -->
+            <div id="carousel-partners" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/partners/idea.webp" class="d-block w-50" alt="Idea">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/partners/art-van.webp" class="d-block w-50" alt="ArtVan">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/partners/ikea.webp" class="d-block w-50" alt="Ikea">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/partners/vitra.webp" class="d-block w-50" alt="Vitra">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/partners/walmart.webp" class="d-block w-50" alt="Walmart">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/partners/kronheims.webp" class="d-block w-50" alt="Kronheims">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/partners/seaman's.webp" class="d-block w-50" alt="Seaman's">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-partners" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-partners" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+         </div>
         <!-- Кінець блоку Світлани Грицьків -->
 
         <!--Ruslan Holynskyi-->
@@ -520,6 +558,10 @@
         </div>
         <!-- Блок Ірини. Кінець -->
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

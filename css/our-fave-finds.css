@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin: 50px 15px 0 15px;
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -229,3 +230,28 @@ div.our-fave-elements-button a:hover{
     color: white;
 }
 
+/* bootstrap tabs */
+#our-fave-products-content{
+    font-family: 'Poppins', sans-serif;
+}
+
+#our-fave-products{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+
+.nav-link {
+  color: rgb(182, 182, 182);
+}
+  .nav-link:hover,
+  .nav-link:focus {
+      color: black;
+      /* text-decoration: if($link-hover-decoration == underline, none, null); */
+    }
+
+/* bootstrap carousel */
+#carousel-partners{
+    padding: 50px 0 80px 0;
+    
+}
+    
