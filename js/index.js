@@ -20,7 +20,7 @@ let discount = setInterval(function () {
     // if the variable "amout" is 0 or lower clearInterval() stops the execution of the function discount
     if (amount <= 0) {
     clearInterval(x);
-    document.querySelector(".count-down").innerHTML = "expired";
+    document.querySelector(".count-down").innerHTML = "discounted price is over ";
     }
     // the function is triggered every second
 },1000)
