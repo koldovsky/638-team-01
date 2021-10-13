@@ -1,4 +1,9 @@
 /*spring_collection section*/
+@media all and (max-width:768px) {
+    .parallax{
+        height: 120vh;
+    }    
+}
 @media all and (min-width: 768px){
     .best-selling {
         grid-template-columns: auto auto;
