@@ -98,7 +98,7 @@ div.our-fave-armchairs-elements-text a{
 .our-fave-armchairs-elements-out-stock{
     background-color: rgb(255, 221, 217);
     padding: 4px 8px 4px 8px;
-    margin-top: -25px;
+    margin-top: -32px;
     color: rgb(204, 56, 51);
 }
 
@@ -184,6 +184,11 @@ div.our-fave-products-tables{
   display: flex;
   flex-direction: column;
   text-align: center; 
+}
+
+/* First img tab-tables - fixed */
+#fixed-img-upi-table{
+    margin-bottom: -10px;
 }
 
 .our-fave-tables-elements-img img{
