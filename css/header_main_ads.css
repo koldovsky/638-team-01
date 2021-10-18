@@ -124,12 +124,12 @@ body {
     font-size: 18px;
     font-weight: 300;
 }
-main {
+/* main {
     background: #fff;
     padding-left: 8.5rem;
     padding-right: 8.5rem;
     padding-top: 5rem;
-}
+}*/
 .ads {
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 5rem;
