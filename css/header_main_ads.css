@@ -1,0 +1,143 @@
+body {
+    background: #f3f3f3;
+    margin: 0;
+    color: #333;
+    font-family: Poppins, sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+.d-grid {
+    display: grid;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.green-chair-background {
+    background: url('./../img/banner_green_chair.png') no-repeat;
+    background-size: cover;
+    padding-left: 8.5rem;
+    padding-right: 8.5rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list-style-none li{
+    list-style: none;
+}
+.navbar-menu li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: #333;
+}
+.navbar-menu li a:hover {
+    color: #7bb57c;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.btn {
+    border-radius: 6px;
+    text-transform: uppercase;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.75rem;
+    height: fit-content;
+}
+.btn-outline {
+    border: 1px solid #7bb57c;
+    background: inherit;
+}
+.btn-outline:hover {
+    background: #7bb57c;
+    color: #fff;
+}
+.btn-primary {
+    background: #7bb57c;
+    color: #fff;
+    box-shadow: 0 3px 10px 0 rgb(39 37 40 / 28%);
+}
+.btn-primary:hover {
+    background: #333;
+}
+.px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.py-5 {
+    padding-top: 1.25rem;;
+    padding-bottom: 1.25rem;;
+}
+.py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.text-green {
+    color: #7bb57c;
+}
+.text-dark {
+    color: #333;
+}
+.text-decoration-none {
+    text-decoration: none;
+}
+.h-full {
+    height: 100vh;
+}
+.absolute {
+    position: absolute;
+}
+.furniture-for-home-and-office {
+    margin-bottom: 7rem;
+    max-width: 700px;
+}
+.furniture-for-home-and-office h1 {
+    font-size: 84px;
+    margin: 0;
+    font-weight: 800;
+}
+.furniture-for-home-and-office .btn {
+    text-decoration: none;
+}
+.furniture-for-home-and-office .models-of-cushioned-furniture-lamps-and-accessories h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+main {
+    background: #fff;
+    padding-left: 8.5rem;
+    padding-right: 8.5rem;
+    padding-top: 5rem;
+}
+.ads {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5rem;
+}
+.ads img {
+    width: 375px;
+    height: 250px;
+}
+a.text-decoration-none.text-dark:hover {
+    text-decoration: underline;
+}
