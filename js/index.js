@@ -1,7 +1,8 @@
+/*Count down function*/
 
 // getTime() Returns the number of milliseconds since 1970/01/01:
 // new Date("string") - sets a specific date
-let countDownDate = new Date("Oct 31, 2021 09:30:00").getTime();
+let countDownDate = new Date("Dec 01, 2021 09:30:00").getTime();
 // setInterval(function, milliseconds) triggeres a function at a specified interval(in milliseconds)
 let discount = setInterval(function () {
     // Achieving the number of of milliseconds since 1970/01/01 until now
@@ -19,7 +20,7 @@ let discount = setInterval(function () {
         + minutes + "m " + seconds + "s ";
     // if the variable "amout" is 0 or lower clearInterval() stops the execution of the function discount
     if (amount <= 0) {
-    clearInterval(x);
+    clearInterval();
     document.querySelector(".count-down").innerHTML = "discounted price is over ";
     }
     // the function is triggered every second

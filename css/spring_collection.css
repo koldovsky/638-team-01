@@ -97,6 +97,11 @@
     background-color: #7bb57c;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 24px 0 0;
+    transition: 1s;
+}
+
+.container__button:hover{
+    background-color: black;
 }
 
 /*Spring 2020 collection Section*/
@@ -139,6 +144,10 @@
 }
 /*To do*/
 .parallax__button {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     font-size: 12px;
     height: 52px;
@@ -154,11 +163,16 @@
     background-color: #7bb57c;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top:calc(10px + (40 - 10) * ((100vw - 320px) / (991 - 320)));
+    transition: 1s;
 }
 
 .parallax__button span {
     margin-left: 8px;
     vertical-align: baseline;
+}
+.parallax__button:hover{
+    background-color: black;
+    color: #fff;
 }
 
 /*Black & White furniture Section*/
@@ -232,6 +246,16 @@
     background-color: #7bb57c;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+}
+.bright-container__button:hover,
+.black-container__button:hover{
+    color:black;
+    background-color: #fff;
 }
 /*Positioning of the containers*/
 .bright-container__header,.black-container__header,.bright-container__title,.black-container__title,.bright-container__footer, .black-container__footer,.bright-container__button,
