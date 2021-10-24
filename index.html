@@ -444,70 +444,94 @@
         </div>
         <!-- End Ruslan Holynskyi-->
 
-        <!-- Блок Ірини. Початок -->
-        <section class="about-us">
-            <h4 class="about-us-title">About Us</h4>
-            <p class="about-us-text">We sell designer furniture, lamps & decor across the USA</p>
-            <div class="about-us-accordion">
-                <div class="about-us-accordion-item">
-                    How to make an order?
-                    <img src="./img/about-us/arrow-down.svg" alt="">
-                </div>
-                <div class="about-us-accordion-item">
-                    Dispatch v Delivery
-                    <img src="./img/about-us/arrow-down.svg" alt="">
-                </div>
-                <div class="about-us-accordion-item">
-                    Returns & Refunds
-                    <img src="./img/about-us/arrow-down.svg" alt="">
-                </div>
-            </div>
-        </section>
-        <div class="video-player-block">
-            <img src="./img/about-us/background-video-player.webp" alt="Sunny Room+">
+        <!-- Iryna Oryshchii -->
+        <div class="about-us-video-player-block-container">
+            <section class="about-us">
+                <h4 class="about-us-title">About Us</h4>
+                <p class="about-us-text">We sell designer furniture, lamps & decor across the USA</p>
+                <div class="accordion" id="about-us-accordion">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How to make an order?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#about-us-accordion">
+                        <div class="accordion-body">
+                            Specify the name of the preferred product in our contact form and provide all the needed details. Our manager will contact you soon after checking the stock status.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Dispatch v Delivery
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#about-us-accordion">
+                        <div class="accordion-body">
+                            On the product page, you can see a dispatch estimate e.g. 'within 2-3 weeks'. Dispatch is when we send the item to our delivery partner, not the date it is delivered to your door. If you need more accurate delivery times, check it with the manager.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Returns & Refunds
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#about-us-accordion">
+                        <div class="accordion-body">
+                            If you won't like the product, you can return it to us within 14 days for a full refund. Simply contact us and we will assist you with your return. Remember that you'll need to disassemble the item and repackage it, in order for us to collect the product and return it to the warehouse.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <div class="video-player-block"></div>
         </div>
         <section class="blog">
             <h3 class="blog-title">Our Blog</h3>
             <div class="blog-tips">Top tips from our designers</div>
-            <div class="blog-posts">
-                <strong>No blog posts yet...</strong>
-            </div>
+            <div class="blog-posts">No blog posts yet...</div>
         </section>
         <div class="delivery-payment">
-            <div class="delivery-payment-block">
-                <div class="delivery-payment-block-icon">
-                    <img src="./img/about-us/delivery-icon.svg" alt="delivery icon">
+            <div class="delivery-payment-container">
+                <div class="delivery-payment-block">
+                    <div class="delivery-payment-block-icon">
+                        <img src="./img/about-us/delivery-icon.svg" alt="delivery icon">
+                    </div>
+                    <div class="delivery-payment-block-caption">Next-day Delivery</div>
+                    <div class="delivery-payment-block-text">Free next-day delivery to any corner of the USA for all orders
+                        over $300.</div>
                 </div>
-                <div class="delivery-payment-block-caption">Next-day Delivery</div>
-                <div class="delivery-payment-block-text">Free next-day delivery to any corner of the USA for all orders
-                    over $300.</div>
-            </div>
-            <div class="delivery-payment-block">
-                <div class="delivery-payment-block-icon">
-                    <img src="./img/about-us/money-back-icon.svg" alt="money back icon">
+                <div class="delivery-payment-block">
+                    <div class="delivery-payment-block-icon">
+                        <img src="./img/about-us/money-back-icon.svg" alt="money back icon">
+                    </div>
+                    <div class="delivery-payment-block-caption">100% Money back</div>
+                    <div class="delivery-payment-block-text">If you won't like the product, return in to us in 14 days and
+                        get the full refund.</div>
                 </div>
-                <div class="delivery-payment-block-caption">100% Money back</div>
-                <div class="delivery-payment-block-text">If you won't like the product, return in to us in 14 days and
-                    get the full refund.</div>
-            </div>
-            <div class="delivery-payment-block">
-                <div class="delivery-payment-block-icon">
-                    <img src="./img/about-us/warranty-icon.svg" alt="warranty icon">
+                <div class="delivery-payment-block">
+                    <div class="delivery-payment-block-icon">
+                        <img src="./img/about-us/warranty-icon.svg" alt="warranty icon">
+                    </div>
+                    <div class="delivery-payment-block-caption">Warranty handling</div>
+                    <div class="delivery-payment-block-text">If you find a defect in the product or a breakdown occurs, we
+                        will fix it for free.</div>
                 </div>
-                <div class="delivery-payment-block-caption">Warranty handling</div>
-                <div class="delivery-payment-block-text">If you find a defect in the product or a breakdown occurs, we
-                    will fix it for free.</div>
-            </div>
-            <div class="delivery-payment-block">
-                <div class="delivery-payment-block-icon">
-                    <img src="./img/about-us/payment-card-icon.svg" alt="payment card icon">
+                <div class="delivery-payment-block">
+                    <div class="delivery-payment-block-icon">
+                        <img src="./img/about-us/payment-card-icon.svg" alt="payment card icon">
+                    </div>
+                    <div class="delivery-payment-block-caption">Payment methods</div>
+                    <div class="delivery-payment-block-text">We accept payment by cash, Visa and MasterCard, PayPal and many
+                        other options.</div>
                 </div>
-                <div class="delivery-payment-block-caption">Payment methods</div>
-                <div class="delivery-payment-block-text">We accept payment by cash, Visa and MasterCard, PayPal and many
-                    other options.</div>
             </div>
         </div>
-        <!-- Блок Ірини. Кінець -->
+        <!-- End. Iryna Oryshchii -->
     </main>
     <!--script src="./js/index.js"></script>-->
     <script src="./js/best-selling-products.js"></script>
