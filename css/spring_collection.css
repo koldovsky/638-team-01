@@ -47,12 +47,6 @@
     align-items: center;
     position: relative;
 }
-.time{
-    position: absolute;
-     color:red;
-    border: 2px solid red;
-    margin: 0;
-}
 .container__title,
 .container__price,
 .container__button {

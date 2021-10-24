@@ -1,6 +1,6 @@
 (function () {
     const product = JSON.parse(localStorage.product);
-    const productContainer = document.querySelector(".container");
+    const productContainer = document.querySelector(".container-carousel");
     productContainer.innerHTML = `
     <div class="best-selling__products">
                 <a href="./best-selling-products-info.html"><img src="${product.image}" alt="white chair"></a>

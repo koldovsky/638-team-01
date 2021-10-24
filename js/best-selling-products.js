@@ -37,7 +37,7 @@
         for (const product of products) {
             productContainer.innerHTML += `
             <div class="best-selling__products">
-                <a href="./best-selling-products-info.html"><img src="${product.image}" alt="white chair"></a>
+                <img src="${product.image}" alt="white chair">
                 <div class="best-selling__products__container">
                     <a class="product-info-button" data-id="${product.id}"  href="./best-selling-products-info.html" class="container__title" href="#">${product.title}</a>
                     <p class="container__price">${product.price}</p>
