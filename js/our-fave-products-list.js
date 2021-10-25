@@ -11,7 +11,8 @@
         size : "25\" x 32\"",
         materials : "Faux suede, steel",
         imageB : "img/armchairs/fusion-armchair.png",
-        imageS : "img/armchairs/fusion-armchair-small.png"
+        imageS : "img/armchairs/fusion-armchair-small.png",
+        quantity: 1
       },
       {
         id : "2",
@@ -23,7 +24,8 @@
         size : "28\" x 37\"",
         materials : "Faux suede, wood",
         imageB : "img/armchairs/aurora-armchair.png",
-        imageS : "img/armchairs/aurora-armchair-small.png"
+        imageS : "img/armchairs/aurora-armchair-small.png",
+        quantity: 1
       },
       {
         id : "3",
@@ -35,7 +37,8 @@
         size : "28\" x 35\"",
         materials : "Faux suede, wood",
         imageB : "img/armchairs/cloud-armchair.png",
-        imageS : "img/armchairs/cloud-armchair-small.png"
+        imageS : "img/armchairs/cloud-armchair-small.png",
+        quantity: 1
       },
       {
         id : "4",
@@ -47,7 +50,8 @@
         size : "28\" x 35\"",
         materials : "Textile, wood",
         imageB : "img/armchairs/jeanine-armchair.png",
-        imageS : "img/armchairs/jeanine-armchair-small.png"
+        imageS : "img/armchairs/jeanine-armchair-small.png",
+        quantity: 0
       }
     ];
   
@@ -55,20 +59,21 @@
   
 
   function renderProducts(products) {
-    const productsContainer = document.querySelector(".our-fave-products-block-all-armchairs");
+    const productsContainer = document.querySelector(".our-fave-products-armchairs");
     for (const product of products) {
       
-      if (product.id === "4") {
+      if (product.quantity <= 0) {
         productsContainer.innerHTML += `
+        <div class="our-fave-products-armchairs">
         <div class="our-fave-armchairs-elements">
             <div class="our-fave-armchairs-elements-img-outstock">
                 <div class="our-fave-armchairs-elements-img">
-                    <a href="our-fave-products-list.html" class = "fave-product-list-button" data-id="${product.id}"><img src="${product.imageB}" alt="${product.name}"></a>
+                    <a href="our-fave-products-list.html" class = "fave-product-list-button" ><img data-id="${product.id}" src="${product.imageB}" alt="${product.name}"></a>
                 </div>
                 <div class="our-fave-armchairs-elements-out-stock">Out of stock</div>
             </div>
             <div class="our-fave-armchairs-elements-text">
-                <a href="our-fave-products-list.html" class = "fave-product-list-button" data-id="${product.id}">
+                <a href="our-fave-products-list.html" class = "fave-product-list-button">
                     <p>${product.name}</p>
                 </a>
             </div>
@@ -79,13 +84,15 @@
                 <a href="#" class="button-order" id="not-active-button"><span>ORDER NOW</span></a>
             </div>
         </div>
+        </div>
         `
       } else  {
         productsContainer.innerHTML +=`
+        
         <div class="our-fave-products-armchairs">
             <div class="our-fave-armchairs-elements">
                 <div class="our-fave-armchairs-elements-img">
-                    <a href="our-fave-products-list.html" class="fave-product-list-button" data-id="${product.id}"> <img src="${product.imageB}" alt="${product.name}"></a>
+                    <a href="our-fave-products-list.html" class="fave-product-list-button"> <img data-id="${product.id}" src="${product.imageB}" alt="${product.name}"></a>
                 </div>
                 <div class="our-fave-armchairs-elements-text">
                     <a href="our-fave-products-list.html" class="fave-product-list-button" >
@@ -101,6 +108,7 @@
                 </div>
             </div>
           </div>
+          
       `
       }
       
