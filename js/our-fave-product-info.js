@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-    <header>
-        <!-- Блок Тараса -->
-    </header>
-    <main>
-        <!-- Блок Світлани -->
-        <div class="main-block">
-            <div class="main-block-homepage">
+(function () {
+
+  const product = JSON.parse(localStorage.product);
+  const productsContainer = document.querySelector(".main-block");
+  productsContainer.innerHTML = `
+  <div class="main-block-homepage">
                 <a href="#">Store homepage</a>
             </div>
             <div class="main-block-two-sections">
@@ -26,7 +15,7 @@
                     </svg>
                 </div>
                 <div class="main-block-big-img">
-                    <img src="img/armchairs/fusion-armchair.png" alt="Fusion armchair">
+                    <img src="${product.imageB}" alt="${product.name}">
                 </div>
                 <div class="main-block-big-img-arrow">
                     <svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 24L12.5 13L1.5 2" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path></svg>
@@ -36,16 +25,16 @@
             </div>
             <div class="main-block-small-img-box">
                 <div class="main-block-small-img-box-img">
-                    <img src="img/armchairs/fusion-armchair-small.png" alt="Fusion Armchair">
+                    <img src="${product.imageS}" alt="${product.name}">
                 </div>
                 <div class="main-block-small-img-box-img">
-                    <img src="img/armchairs/fusion-armchair-small.png" alt="Fusion Armchair">
+                    <img src="${product.imageS}" alt="${product.name}">
                 </div>
                 <div class="main-block-small-img-box-img">
-                    <img src="img/armchairs/fusion-armchair-small.png" alt="Fusion Armchair">
+                    <img src="${product.imageS}" alt="${product.name}">
                 </div>
                 <div class="main-block-small-img-box-img">
-                    <img src="img/armchairs/fusion-armchair-small.png" alt="Fusion Armchair">
+                    <img src="${product.imageS}" alt="${product.name}">
                 </div>
             </div>
         </div>
@@ -54,13 +43,13 @@
                     <span>In stock</span>
                 </div>
                 <div class="main-block-text-product-name">
-                    <span>Fusion armchair, LEXX</span>
+                    <span>${product.name}</span>
                 </div>
                 <div class="main-block-text-product-code">
-                <span> Product code 1</span>
+                <span> ${product.code}</span>
                 </div>
                 <div class="main-block-text-product-price">
-                    <span>320.00 USD</span>
+                    <span>${product.price}</span>
                 </div>
                 <div class="main-block-text-line-one">
                     <hr>
@@ -81,24 +70,21 @@
                     <div class="main-block-text-line-two">
 
                     </div>
-                    <div class=main-block-text-abuot">
-                        It is an incredibly stylish armchair in a trendy mustard color. In it, you can recline comfortably and read a book or work on a laptop.
+                    <div class="main-block-text-abuot">
+                        ${product.desription}
                         <br>
                         <br>
-                        Dimensions and materials:
+                        ${product.dimensions}
                         <br>
-                        25" x 32"
+                        ${product.size}
                         <br>
-                        Faux suede, steel
+                        ${product.materials}
                         <br>
                     </div>
                 </div>
             </div>
+
         </div>
-        </div>
-    </main>
-    <footer>
-        <!-- Блок Павла -->
-    </footer>
-</body>
-</html>
+  `
+
+})();
