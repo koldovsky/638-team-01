@@ -56,11 +56,11 @@
                 </div>
                 <div class="main-block-text-quantity-button">
                     <div class="main-block-text-quantity">
-                        <input type="text" value="1" >
+                        <input type="number" value="1" >
 
                     </div>
                     <div class="main-block-text-button">
-                        <button>ADD TO CART</button>
+                        <a><span>ADD TO CART</span></a>
                     </div>
                 </div>
                 <div class="main-block-text-all-description">
@@ -68,7 +68,7 @@
                         <span>Description</span>
                     </div>
                     <div class="main-block-text-line-two">
-
+                        <hr>
                     </div>
                     <div class="main-block-text-abuot">
                         ${product.desription}

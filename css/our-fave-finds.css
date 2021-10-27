@@ -38,6 +38,10 @@ div.our-fave-products-names span.tables
     padding: 15px 20px 15px 20px;
 }
 
+a.disp-block{
+    display: block;
+}
+
 /* Armchairs */
 div.our-fave-products-armchairs{
     margin-top: -30px;
