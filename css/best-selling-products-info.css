@@ -4,7 +4,7 @@
     max-width: 1200px;
     margin: auto;
     position: relative;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
 }
 .product-information-image{
     display: flex;
@@ -80,11 +80,11 @@
 .product-information-description{
     display: flex;
     flex-flow: column wrap;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 .product-information-description h2{
     color:#7bb57c;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     font-size: 16px;
     line-height: 24px;
     font-family: 'poppins',sans-serif;
@@ -94,7 +94,83 @@
     letter-spacing: 0.8px;
     text-transform: none;
     margin-top: 73px;
+    margin-bottom: 0;
 }
 .product-information-description h2::first-letter{
     text-transform: uppercase;
+}
+
+.product-information-description h4{
+    color:rgb(51,51,51);
+    font-family: 'poppins',sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.6px;
+    letter-spacing: normal;
+    margin-top:0px;
+}
+.code{
+    font-size: 14px;
+    line-height: 22.4px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.7px;
+    color: rgb(133,133,133);
+}
+
+.price{
+    font-size: 20px;
+    line-height: 26.6px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: calc(0.9px + (1 - 0.9) * ((100vw - 320px) / (1200 - 320)));
+    color: rgb(51,51,51);
+}
+/*TO DO*/
+.add-to-cart{
+    display: flex;
+}
+
+.add-to-cart input{
+    width: 30px;
+    color:rgb(0,0,0);
+    font-weight: 400;
+    letter-spacing:normal;
+    line-height:normal;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.add-to-cart button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family:'Hind', 'sans-serif';
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 40px;
+    width: calc(195px + (486 - 195) * ((100vw - 320px) / (1200 - 320)));
+    height: 40px;
+    background-color: rgb(123,181,124);
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+.description p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:0.8px;
+    color: rgb(112,112,112);
+    width: calc(272px + (570 - 272) * ((100vw - 320px) / (1200 - 320)));
+    height:calc(240px + (168 - 240) * ((100vw - 320px) / (1200 - 320)));
 }

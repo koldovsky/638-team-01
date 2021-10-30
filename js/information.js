@@ -4,11 +4,11 @@
     productInformation.innerHTML = `
     <h2>in stock</h2>
     <h4>${product.title}</h4>
-    <p>Product code 15</p>
-    <p>${product.price}</p>
+    <p class="code">Product code 15</p>
+    <p class="price">${product.price}</p>
     <div class="add-to-cart">
-     <button  type="button">Click me: 0</button>
-     <button type="button">Add to Cart</button>
+    <input type="number" value="0" step="1" min="0" required>
+    <button type="button">Add to Cart</button>
     </div>
     <div class="description">
     <p>${product.description}</p>
