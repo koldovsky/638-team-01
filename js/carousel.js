@@ -1,10 +1,10 @@
 (function () {
     const product = JSON.parse(localStorage.product);
     const slides = [
-        `<img src="${product.image}" alt="white chair">`,
-        `<img src="${product.image}" alt="white chair">`,
-        `<img src="${product.image}" alt="white chair">`,
-        `<img src="${product.image}" alt="white chair">`,
+        `<div><img src="${product.image}" alt="white chair"></div>`,
+        `<div><img src="${product.image}" alt="white chair"></div>`,
+        `<div><img src="${product.image}" alt="white chair"></div>`,
+        `<div><img src="${product.image}" alt="white chair"></div>`,
     ];
 
     let currentSlide = 0;
