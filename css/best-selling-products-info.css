@@ -41,16 +41,33 @@
     width: calc(171px + (359 - 171) * ((100vw - 320px) / (1200 - 320)));
     height:calc(204px + (428 - 204) * ((100vw - 320px) / (1200 - 320)));
 }
-
+.container-carousel .prev{
+    position: relative;
+    left:-30px;
+    color:rgb(51,51,51);
+}
+.container-carousel .next{
+    position: relative;
+    right:-30px;
+    color:rgb(51,51,51);
+}
 .container-carousel button{
     color:rgba(25,25,25);
     background-color: transparent;
     border: none;
     font-size: 35px;
     cursor: pointer;
-    transition: 0.5s;
+    visibility: hidden;
+    transition: 0.1s;
 }
-
+.container-carousel:hover .prev{
+    visibility: visible;
+    left:0px;
+}
+.container-carousel:hover .next{
+    visibility: visible;
+    right:0px;
+}
 .container-carousel-row .slide-rows{
     display: flex;
     flex-direction: row;
@@ -210,7 +227,25 @@
     outline: none;
     margin-left: 10px;
 }
-
+.product-information-description .description .description__title{
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing:normal;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: rgb(51,51,51);
+    display: inline-block;
+    border-bottom:2px solid rgb(22,91,251);
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+hr{
+    margin-top: -1px;
+}
 .description p{
     font-size: 16px;
     line-height: 24px;

@@ -15,6 +15,8 @@
     <button class="add-button" type="button">Add to Cart</button>
     </div>
     <div class="description">
+    <h4 class="description__title">description</h4>
+    <hr>
     <p>${product.description}</p>
     </div>
     `
