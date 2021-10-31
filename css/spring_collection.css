@@ -52,7 +52,7 @@
 .container__button {
     width: calc(272px + (353 - 272) * ((100vw - 320px) / (1200 - 320)));
 }
-.container__title {
+.product-info-button{
     cursor: pointer;
     display: inline-block;
     font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1280 - 320)));
@@ -63,6 +63,9 @@
     margin: calc(8px + (24 - 8) * ((100vw - 320px) / (1280 - 320))) 0 0;
     text-decoration: none;
     text-align: center;
+}
+.product-info-button:hover{
+    color: rgb(51, 51, 51);
 }
 
 .container__price {
