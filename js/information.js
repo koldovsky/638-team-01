@@ -7,8 +7,12 @@
     <p class="code">Product code 15</p>
     <p class="price">${product.price}</p>
     <div class="add-to-cart">
-    <input type="number" value="0" step="1" min="0" required>
-    <button type="button">Add to Cart</button>
+    <div class="number">
+	<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">&#9660;</button>
+	<input type="number" min="0" value="0">
+	<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">&#9650;</button>
+    </div>
+    <button class="add-button" type="button">Add to Cart</button>
     </div>
     <div class="description">
     <p>${product.description}</p>
