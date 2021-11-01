@@ -5,6 +5,7 @@
     flex-flow: column wrap;
     justify-content: space-between;
     margin: auto;
+    margin-top: 50px;
     text-align: center;
     width: calc(272px + (1170 - 272) * ((100vw - 320px) / (1280 - 320)));
     height: calc(153px + (98 - 153) * ((100vw - 320px) / (1280 - 320)));

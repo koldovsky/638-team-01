@@ -1,7 +1,13 @@
+body.night {
+    background: #000;
+    color: #fff;
+}
+
 .about-us {
     background:#f7f5f6;
     padding: 31px 29px 31px 31px;
     margin: 0 24px 0px 24px;
+    z-index: 1;
 } 
 
 .about-us-title {
@@ -21,6 +27,46 @@
 
 .about-us-accordion {
     margin-top: 25px;
+}
+
+.about-us-video-player-block-container {
+    position: relative;
+}
+
+.about-us-wrapper {
+    position: relative;
+}
+
+.about-us-wrapper .cat-block {
+    position: absolute;
+    top: -90px;
+    left: calc(25% - 65px);
+    z-index: 0;
+    cursor: pointer;
+    color: #333;
+}
+
+.about-us-wrapper .cat-block:hover {
+    z-index: 2;
+}
+
+.about-us-wrapper .cat-block .cat {
+    width: 130px;
+}
+
+.about-us-wrapper .cat-switchers {
+    background: #f7f5f6;
+    border: 2px solid white;
+    padding: 12px;
+}
+
+.about-us-wrapper .leaf{
+    width:35px;
+    height:35px;
+    position:absolute;
+    background: url(/img/about-us/leaf.png);
+    background-size: 100% 100%;
+    z-index: 3;
 }
 
 #about-us-accordion .accordion-item {
@@ -44,7 +90,7 @@
 }
 
 #about-us-accordion .accordion-button:not(.collapsed) {
-    color: inherit;
+    color: #333;
 }
 
 .accordion-button::after {
