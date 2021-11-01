@@ -1,5 +1,6 @@
 .main-block {
   padding: 0 24px 0 24px;
+  user-select: none;
 }
 
 div.main-block-homepage a { 
@@ -55,7 +56,16 @@ div.main-block-homepage a {
   align-items: center;
 }
 
+.main-block-big-img-arrow:hover{
+  cursor: pointer;
+}
+
 .main-block-small-img-box-img {
+  margin: 6px 6px 6px 6px;
+  border: solid 1px rgb(237, 240, 245);
+}
+
+.active-arrow{
   margin: 6px 6px 6px 6px;
   border: solid 1px black;
 }
@@ -126,9 +136,7 @@ div.main-block-text-quantity input{
   text-align: center;
 }
 
-div.main-block-text-button a{
 
-}
 
 div.main-block-text-button a{
   text-decoration: none;
