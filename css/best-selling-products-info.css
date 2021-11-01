@@ -4,7 +4,6 @@
     max-width: 1200px;
     margin: auto;
     position: relative;
-    /*border: 3px solid green;*/
 }
 .product-information-image{
     display: flex;
@@ -34,7 +33,6 @@
     height:calc(204px + (428 - 204) * ((100vw - 320px) / (1200 - 320)));
     margin-left: calc(10px + (0 - 10) * ((100vw - 320px) / (1200 - 320)));
     margin-top: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
-    /*border: 2px solid red;*/
 }
 .container-carousel img{
     object-fit: cover;
@@ -74,8 +72,6 @@
     width: calc(274px + (570 - 274) * ((100vw - 320px) / (1200 - 320)));
     margin-top:  calc(15px + (25 - 15) * ((100vw - 320px) / (1200 - 320)));
     margin-left: calc(10px + (0 - 10) * ((100vw - 320px) / (1200 - 320)));
-    /*border: 2px solid blue;*/
-    /*background-color: red;*/
 }
 
 .slide-rows img{
@@ -97,11 +93,9 @@
 .product-information-description{
     display: flex;
     flex-flow: column wrap;
-    /*border: 2px solid red;*/
 }
 .product-information-description h2{
     color:#7bb57c;
-    /*border: 2px solid blue;*/
     font-size: 16px;
     line-height: 24px;
     font-family: 'poppins',sans-serif;
@@ -148,7 +142,6 @@
     color: rgb(51,51,51);
     margin-top: 5px;
 }
-/*TO DO*/
 .add-to-cart{
     display: flex;
     margin-top: 40px;
@@ -172,7 +165,6 @@
 .add-to-cart input[type="number"]::-webkit-inner-spin-button {
 	display: none;
 }
-/*TEST*/
 .number{
     position: relative;
 }
@@ -210,7 +202,6 @@
     line-height: 24px;
 
 }
-/**/
 .add-to-cart .add-button{
     display: flex;
     justify-content: center;
@@ -250,6 +241,7 @@
 hr{
     margin-top: -1px;
     border-color: rgba(36,36,36,0.1);
+    width:95%;
 }
 .description p{
     font-size: 16px;
